@@ -1,0 +1,82 @@
+body{
+    font:15px/1.5 Arial,Helvetica;
+    padding:0;
+    margin:0;
+    background-color: white;
+
+}
+.container{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:black;
+    color:white;
+    padding-top:20px;
+    border-bottom: pink;
+    min-height: 800px;
+    width: 100%;
+    background-image:url("img5.png");
+    background-repeat: no-repeat;
+    
+}
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header li{
+    float:left;
+    display: inline;
+    padding : 0 20px 0 20px;
+}
+header #navbar-brand{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header form{
+    float: right;
+    margin-top: 10px;
+}
+a:hover{
+background-color: blue;
+}
+footer{
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+}
+footer li{
+    
+    display: inline;
+    padding : 0 20px 0 20px;
+}
+footer nav{
+    float: left;
+    margin-left: 400px;
+}
+form{
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+form video{
+    float: right;
+}
+nav h1{
+    color: black;
+    text-align: center;
+}
+form progress{
+    color:white;
+}

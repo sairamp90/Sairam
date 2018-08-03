@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Test Class</title>
+            <style>
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                td {
+                    padding: 8px;
+                    text-align: left;
+                    border-bottom: 1px solid #000;
+                }
+                th{
+                    padding: 8px;
+                    text-align: center;
+                    border-bottom: 1px solid #000;
+                }
+                #sty{
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 37px;
+                    border-bottom: 1px solid #eee;
+                }
+                button{
+                    margin-top: 68px;
+                    margin-left: 600px;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div id="sty"> TABLE </div>
+
+            <button type="button" onclick="makeAPICall()"> Click Me</button>
+            <div id="Jsontable"></div>
+            
+
+
+            <script src="JSONData.js"></script>
+        </body>
+    </html>
